@@ -1,0 +1,8 @@
+Stakeholders:
+1) Admin
+2)Users
+
+Admin Functionality:
+1)Categories Crud,
+2)See all events
+3)See all users
