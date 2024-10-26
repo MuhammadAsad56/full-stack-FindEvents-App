@@ -43,7 +43,7 @@ return (
       {events.map((event) => (
         <TableRow key={event.fullname}>
           <TableCell>
-              <Image src={event.thumbnail} height={40} width={40} className="rounded-md" />
+              <Image src={event.thumbnail} alt="Loading..." height={40} width={40} className="rounded-md" />
           </TableCell>
           <TableCell className="font-medium">{event.title}</TableCell>
           <TableCell>{event.discription}</TableCell>

@@ -46,7 +46,7 @@ return (
       {subCategories.map((category) => (
         <TableRow key={category.title}>
           <TableCell>
-              <Image src={category.thumbnail} height={60} width={60} className="rounded-md" />
+              <Image src={category.thumbnail} alt="Loading..." height={60} width={60} className="rounded-md" />
           </TableCell>
           <TableCell className="font-medium">{category.catetgory}</TableCell>
           <TableCell>{category.title}</TableCell>

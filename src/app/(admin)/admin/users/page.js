@@ -50,7 +50,7 @@ export default function Users() {
         {users.map((user) => (
           <TableRow key={user.fullname}>
             <TableCell>
-                <Image src={user.profileImage} height={40} width={40} className="rounded-md" />
+                <Image src={user.profileImage} alt="Loading..." height={40} width={40} className="rounded-md" />
             </TableCell>
             <TableCell className="font-medium">{user.fullname}</TableCell>
             <TableCell>{user.email}</TableCell>
