@@ -1,5 +1,5 @@
 import { connectDB } from "@/lib/db/connectDB";
-import  {Users}  from "@/lib/models/Users.models.js";
+import { Users } from "@/lib/models/Users.models";
 
 
 export async function GET(request) {
