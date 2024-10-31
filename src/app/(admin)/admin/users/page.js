@@ -35,7 +35,7 @@ import Image from "next/image"
 
 export default function Users() {
   return (
- <div className="min-h-screen">
+ <div className="min-h-screen container mx-auto">
      <Table>
       <TableHeader>
         <TableRow>

@@ -28,7 +28,7 @@ const events = [
 
 export default function Events(){
 return (
-<div className="min-h-screen">
+<div className="min-h-screen container mx-auto">
    <Table>
     <TableHeader>
       <TableRow>
@@ -41,7 +41,7 @@ return (
     </TableHeader>
     <TableBody>
       {events.map((event) => (
-        <TableRow key={event.fullname}>
+        <TableRow key={event.title}>
           <TableCell>
               <Image src={event.thumbnail} alt="Loading..." height={40} width={40} className="rounded-md" />
           </TableCell>
